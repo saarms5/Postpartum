@@ -1,0 +1,45 @@
+{
+    "expo": {
+        "name": "Antigravity",
+        "slug": "antigravity-postpartum",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./assets/icon.png",
+        "userInterfaceStyle": "automatic",
+        "splash": {
+            "image": "./assets/splash.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#E8F4F8"
+        },
+        "assetBundlePatterns": [
+            "**/*"
+        ],
+        "ios": {
+            "supportsTablet": true,
+            "bundleIdentifier": "com.antigravity.postpartum"
+        },
+        "android": {
+            "adaptiveIcon": {
+                "foregroundImage": "./assets/adaptive-icon.png",
+                "backgroundColor": "#E8F4F8"
+            },
+            "package": "com.antigravity.postpartum",
+            "permissions": [
+                "android.permission.RECORD_AUDIO",
+                "android.permission.SCHEDULE_EXACT_ALARM"
+            ]
+        },
+        "web": {
+            "favicon": "./assets/favicon.png"
+        },
+        "plugins": [
+            [
+                "expo-notifications",
+                {
+                    "icon": "./assets/notification-icon.png",
+                    "color": "#6B9BD1"
+                }
+            ]
+        ]
+    }
+}
